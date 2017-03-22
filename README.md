@@ -16,7 +16,7 @@ The old design of WTL cannot meet new Visual Studio 2017 requirement. To solve t
 
 ## Version
 The initiated version is based on WTL 9.1.5231 and Nuget WTL 9.1.1.
-You can merge the Setup.js and Files_15 any later version of WTL.
+You can merge the Setup.js and Files_15 with any later version of WTL.
 
 ## Reference
 * [WTL](https://sourceforge.net/projects/wtl/)
