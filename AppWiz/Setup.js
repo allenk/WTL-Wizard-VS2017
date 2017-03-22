@@ -15,7 +15,7 @@ main();
 function main()
 {
 	// Decode command line arguments
-	var bDebug = true;
+	var bDebug = false;
 	var bElevated = false;
 	var strVersion = "";
 	var bCopyFiles = false;
@@ -126,7 +126,7 @@ function main()
 	astrFolder[5] = "vcprojects";
 	astrFolder[6] = "vcprojects";
 	astrFolder[7] = "vcprojects";
-	astrFolder[8] = "vcprojects";
+	astrFolder[8] = "Common7\\IDE\\VC\\vcprojects";
 	astrFolder[9] = "Express\\vcprojects";
 	astrFolder[10] = "Express\\vcprojects";
 	astrFolder[11] = "Express\\vcprojects";
@@ -231,11 +231,9 @@ function main()
 		}
 		
 		// Allen K, special case for i = 8, Visual Studio 2017 release version
-		if (i == 8)
+		if (i == 8 && strSourceFolder15.length == 0)
 		{
-			if (strSourceFolder15.length == 0)
-				continue;			
-			strValue = FileSys.BuildPath(strValue, "Common7\\IDE\\VC");
+			continue;
 		}
 
 		var strDestFolder = FileSys.BuildPath(strValue, astrFolder[i]);
