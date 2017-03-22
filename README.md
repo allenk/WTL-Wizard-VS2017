@@ -1,5 +1,5 @@
 # WTL Wizard for Visual Studio 2017
-##Old soldiers never die; They only fade away!
+## Old soldiers never die; They only fade away!
 
 Windows Template Library (WTL) is a C++ library for developing Windows applications and UI components. It extends ATL (Active Template Library) and provides a set of classes for controls, dialogs, frame windows, GDI objects, and more.
 
@@ -8,20 +8,20 @@ The old design of WTL cannot meet new Visual Studio 2017 requirement. To solve t
 
 ![wtlwizard-feed-screenshot](http://i.imgur.com/q2If9wCg.png)
 
-#Update Notes
+# Update Notes
 * Create Files_15 for Visual Studio 2017.
 * Update Template to generate project using targetver.h.
 * Old WinVER and Manifest design is removed from Files_15. 
 * Setup Wizard works for Visual Studio 2017 release version.
 
-#Version
+# Version
 The initiated version is based on WTL 9.1.5231 and Nuget WTL 9.1.1.
 You can merge the Setup.js and Files_15 any later version of WTL.
 
-#Reference
+# Reference
 * [WTL]([https://sourceforge.net/projects/wtl/](https://sourceforge.net/projects/wtl/))
 * [Nuget WTL]([https://www.nuget.org/packages/wtl/](https://www.nuget.org/packages/wtl/))
 
-#Contact
+# Contact
  [@allenk](https://github.com/allenk)
  
