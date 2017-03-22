@@ -19,8 +19,8 @@ The initiated version is based on WTL 9.1.5231 and Nuget WTL 9.1.1.
 You can merge the Setup.js and Files_15 any later version of WTL.
 
 ## Reference
-* [WTL]([https://sourceforge.net/projects/wtl/](https://sourceforge.net/projects/wtl/))
-* [Nuget WTL]([https://www.nuget.org/packages/wtl/](https://www.nuget.org/packages/wtl/))
+* [WTL](https://sourceforge.net/projects/wtl/)
+* [Nuget WTL](https://www.nuget.org/packages/wtl/)
 
 ## Contact
  [@allenk](https://github.com/allenk)
