@@ -275,11 +275,11 @@ function main()
 		{
 			var bWizSpecial = (i == nWizSpecial);   // special case for VS2002
 			
-    		// Allen K, special case for i = 8, Visual Studio 2017 release version
-    		if (i == 8)
-    		{
-    		    strSourceFolder = strSourceFolder15;
-    		}
+    			// Allen K, special case for i = 8, Visual Studio 2017 release version
+    			if (i == 8)
+    			{
+    		    		strSourceFolder = strSourceFolder15;
+    			}
 			
 			SetupWizard(WSShell, FileSys, strSourceFolder, strDestFolder, strDataDestFolder, astrWizVer[i], bWizSpecial, abExpress[i], bDebug);
 		}
