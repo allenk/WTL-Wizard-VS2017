@@ -537,7 +537,7 @@ function OnViewType()
 		<SCRIPT ID="INCLUDE_SCRIPT" LANGUAGE="JSCRIPT"></SCRIPT>
 		<SCRIPT ID="INCLUDE_COMMON" LANGUAGE="JSCRIPT"></SCRIPT>
 		<!-- 
-Common.js is a script file which contains the helper functions 
+common.js is a script file which contains the helper functions 
 used by the wizards.  Include this line if you want to
 call these functions from your html scripts.
 //-->
@@ -546,7 +546,7 @@ call these functions from your html scripts.
 	strPath += "VCWizards/";
 	strPath += window.external.GetHostLocale();
 	var strScriptPath = strPath + "/Script.js";
-	var strCommonPath = strPath + "/Common.js";
+	var strCommonPath = strPath + "/common.js";
 	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
 	document.scripts("INCLUDE_COMMON").src = strCommonPath;
 		</SCRIPT>

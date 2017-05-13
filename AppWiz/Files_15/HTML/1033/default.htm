@@ -21,7 +21,7 @@
 		var strURL = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
 		strURL += "VCWizards/";
 		strURL += window.external.GetHostLocale();
-		strURL += "/styles.css";
+		strURL += "/NewStyles.css";
 		document.styleSheets(0).imports(0).href = strURL;
 		</SCRIPT>
 		<!--  -->
@@ -526,7 +526,7 @@ call these functions from your html scripts.
 	strPath += "VCWizards/";
 	strPath += window.external.GetHostLocale();
 	var strScriptPath = strPath + "/Script.js";
-	var strCommonPath = strPath + "/Common.js";
+	var strCommonPath = strPath + "/common.js";
 	document.scripts("INCLUDE_SCRIPT").src = strScriptPath;
 	document.scripts("INCLUDE_COMMON").src = strCommonPath;
 		</SCRIPT>
