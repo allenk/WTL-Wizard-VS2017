@@ -6,7 +6,7 @@ Windows Template Library (WTL) is a C++ library for developing Windows applicati
 [WTL Wizard](https://github.com/allenk/WTL-Wizard-VS2017) is Visual Studio project wizard for WTL. Since current WTL built-in Setup and Wizard cannot works for latest release version of Visual Studio 2017.  The project will create a workable Setup Tool and Project Wizard for Visual Studio 2017.
 The old design of WTL cannot meet new Visual Studio 2017 requirement. To solve the issue, old "Files" are cloned to "Files_15" and all updates are patched in new "Files_15" folder. The old "Files" is still kept to work for old Visual Studio.
 
-![wtlwizard-feed-screenshot](http://i.imgur.com/q2If9wCg.png)
+![wtlwizard-feed-screenshot](https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/WTLWizardDialog.png)
 
 ## Update Notes
 * Create Files_15 for Visual Studio 2017.
@@ -22,8 +22,8 @@ You can merge the Setup.js and Files_15 with any later version of WTL.
 * Update the old WTL 16 colors icon to New style.
 * Add Visual Studio 2017 wizard style icon.
 
-<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/wtl_icon_snapshot_00.png" alt="wtlwizard-artwork-mainicon" height="250">
-<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/WTLSimple.png" alt="wtlwizard-artwork-mainicon" height="250">
+<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/wtl_icon_snapshot_00.png" alt="wtlwizard-artwork-mainicon" width="250">
+<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/WTLSimple.png" alt="wtlwizard-artwork-mainicon" width="250">
 
 Paint with new Microsoft's 3D Paint. The BFX and 3MF 3D files are also uploaded to ArtWork folder.
 Just a simple artwork. It is welcome if you could provide your great design.
