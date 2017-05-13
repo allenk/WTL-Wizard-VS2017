@@ -18,6 +18,16 @@ The old design of WTL cannot meet new Visual Studio 2017 requirement. To solve t
 The initiated version is based on WTL 9.1.5231 and Nuget WTL 9.1.1.
 You can merge the Setup.js and Files_15 with any later version of WTL.
 
+## ART work
+* Update the old WTL 16 colors icon to New style.
+* Add Visual Studio 2017 wizard style icon.
+
+<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/wtl_icon_snapshot_00.png" alt="wtlwizard-artwork-mainicon" height="250">
+<img src="https://github.com/allenk/WTL-Wizard-VS2017/raw/master/Artwork/WTLSimple.png" alt="wtlwizard-artwork-mainicon" height="250">
+
+Paint with new Microsoft's 3D Paint. The BFX and 3MF 3D files are also uploaded to ArtWork folder.
+Just a simple artwork. It is welcome if you could provide your great design.
+
 ## Reference
 * [WTL](https://sourceforge.net/projects/wtl/)
 * [Nuget WTL](https://www.nuget.org/packages/wtl/)
