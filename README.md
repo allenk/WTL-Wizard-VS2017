@@ -1,4 +1,8 @@
 # WTL Wizard for Visual Studio 2017
+## Update for WTL 10:
+Since WTL 10 is released and it now supports Visual Studio 2017.
+It's time to return to official WTL version. Let's enjoy WTL 10!
+
 ## Old soldiers never die; They only fade away!
 
 Windows Template Library (WTL) is a C++ library for developing Windows applications and UI components. It extends ATL (Active Template Library) and provides a set of classes for controls, dialogs, frame windows, GDI objects, and more.
