@@ -64,9 +64,9 @@ void CTestWizardCompletionPage::UpdateSummary(void)
 		_T("\t%s\r\n")
 		_T("· %s\r\n")
 		_T("· Find files matching the filter '%s'\r\n"),
-		path,
+		(LPCTSTR)path,
 		recurse ? _T("Also search sub-directories") : _T("Only search that directory"),
-		filter);
+		(LPCTSTR)filter);
 	m_editSummary.SetWindowText(text);
 
 	CString outputDescription;
@@ -85,7 +85,7 @@ void CTestWizardCompletionPage::UpdateSummary(void)
 			outputDescription.Format(
 				_T("· Save the file list to the file:\r\n")
 				_T("\t%s\r\n"),
-				outputFileName);
+				(LPCTSTR)outputFileName);
 			switch(outputFileEncoding)
 			{
 			case eEncoding_ASCII:

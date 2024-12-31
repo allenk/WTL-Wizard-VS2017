@@ -403,7 +403,7 @@ void CTestWizardInfo::ShowContextHelp(LPHELPINFO helpInfo)
 
 	::lstrcat(helpFileLink, _T("::/Context.txt"));
 
-	DWORD idList[3] = { helpInfo->iCtrlId, (DWORD)helpInfo->dwContextId, 0};
+	DWORD idList[3] = { (DWORD)helpInfo->iCtrlId, (DWORD)helpInfo->dwContextId, 0};
 
 	// For more control on the appearance, we could use HH_DISPLAY_TEXT_POPUP
 	HWND hWndHelp = ::HtmlHelp((HWND)helpInfo->hItemHandle, helpFileLink, HH_TP_HELP_WM_HELP, (DWORD_PTR)idList);
@@ -539,7 +539,7 @@ bool CTestWizardInfo::FinishWizard_SaveToFile(HWND hWndParent)
 		{
 			failureReason.Format(
 				_T("Failed to save the file list to the file\r\n%s"),
-				m_outputFileName);
+				(LPCTSTR)m_outputFileName);
 		}
 
 		::MessageBox(hWndParent,
@@ -573,7 +573,7 @@ bool CTestWizardFindFile_SaveToFile::OnBeginFindFiles(void)
 
 		m_failureReason.Format(
 			_T("Unable to open the file '%s' for writing."),
-			m_outputFileName);
+			(LPCTSTR)m_outputFileName);
 	}
 	else
 	{
